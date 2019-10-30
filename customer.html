@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>遊戲平台 首頁</title>   
+		<link rel="stylesheet" href="css/mycss.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.8,maximum-scale=2.0,user-scalable=no">
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.movingboxes.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.5.0/jquery.marquee.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		
+		<style>
+		  
+        </style>
+	</head>
+	<body>
+		<header>
+			<div class="marq_header">
+				
+				<div class="marq_outbox">
+					<img src="image/horn.png">	
+					<div class="marquee">
+						<li>⌾臨時維護通知⌾PNG 老虎機將於2019年07月24日 星期三 09:40~待定，進行臨時維護</li>
+						<li>完成時間待定，維護期間無法進行遊戲及轉點，造成不便敬請見諒！</li>
+						<li>小賭，養家餬口；大賭，發家致富。</li>
+						<li>賭賭賭！買買買！台灣發大財！</li>
+					</div>
+					
+				</div>
+				<a class="forget_psw">忘記密碼？</a>
+				<div class="cell_input_box">
+					<input class="input_3" type="text">
+					<input class="input_4" type="password">
+				</div>
+				<input class="input_1" type="text">
+				<input class="input_2" type="password">
+				<div class="cell_btn_box">
+					<button class="login_btn_cell">登入</button>
+					<button class="register_cell">註冊</button>
+				</div>
+				<button class="login_btn">登入</button>
+				<button class="register">註冊</button>
+			</div>
+			<div class="nav_logo_L">
+				<a id="nav_logo_1"></a>
+				<a id="nav_logo_2" href="index.html"></a>
+				<a id="nav_logo_3" href="tiger.html"></a>
+				<a id="nav_logo_4" href="fish.html"></a>
+				<a id="nav_logo_5" href="sport.html"></a>
+				<a id="nav_logo_6" href="people.html"></a>
+				<a id="nav_logo_7"></a>
+			</div>
+		</header>
+		<main>
+			<div style="width:1000px;height:605px;background:url(image/customer_window.png) no-repeat;margin-left:calc((100% - 930px) / 2);margin-top:60px;">
+				<div style="width:740px;height:450px;top: 10px;left: 130px;position: relative;">
+					<img src="image/customer_in.png" style="border-radius: 12px;">
+				</div>
+			</div>
+			
+
+			<div class="left_aside_pic opener"></div>
+			
+			<div class="right_aside_nav">
+				<button id="R_aside_btn_1">
+					<a id="btn_1"></a>
+					<a>最新優惠</a>
+				</button>
+				
+				<button id="R_aside_btn_2">
+					<a id="btn_2"></a>
+					<a>提款轉帳</a>
+				</button>
+				
+				<button id="R_aside_btn_3">
+					<a id="btn_3"></a>
+					<a>體育直播</a>
+				</button>
+				
+				<button id="R_aside_btn_4">
+					<a id="btn_4"></a>
+					<a>即時比分</a>
+				</button>
+				
+				<button id="R_aside_btn_5">
+					<a id="btn_5"></a>
+					<a href="customer.html">線上客服</a>
+				</button>
+
+				<button id="R_aside_btn_6">
+					<a id="btn_6"></a>
+					<a>我的最愛</a>
+				</button>
+				
+			</div>
+			<div id="dialog"></div>
+		</main>
+		
+		<footer>
+			<div class="footer_block_1">
+				<div class="down_nav">
+					<ul>
+						<li><a>首頁</a></li>
+						<li><a>服務條款</a></li>
+						<li><a>隱私政策</a></li>
+						<li><a>責任博彩</a></li>
+						<li><a>安全性</a></li>
+						<li><a>免責聲明</a></li>
+						<li><a>客務訊息</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="footer_block_2">
+				<div class="down_logo">
+					<div class="user_list">
+						<a class="user_list_title">推薦使用者名單：</a>
+						<a class="user_list_content"></a>
+					</div>
+					
+					<div class="game_plat">
+						<a class="game_plat_title">遊戲平台：</a>
+						<a class="game_plat_content_1"></a>
+						<a class="game_plat_content_2"></a>
+						<a class="game_plat_content_3"></a>
+						<a class="game_plat_content_4"></a>
+						<a class="game_plat_content_5"></a>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<script language="JavaScript">
+
+			
+			
+
+
+$('.marquee').marquee({direction: 'left',duration: 15000,gap: 50,duplicated: false,startVisible: true });var mySwiper = new Swiper('#rySwiper', {
+pagination: '.swiper-pagination',
+nextButton: '.swiper-button-next',
+prevButton: '.swiper-button-prev',
+autoplay: 1000,
+                loop: true,
+                slidesPerView: 'auto',
+                centeredSlides: true,
+				slidesPerView : 5,
+            });
+            //鼠标移入停止轮播
+            $('#rySwiper').mouseenter(function() {
+                mySwiper.stopAutoplay();
+            });
+            //鼠标移出开启轮播
+            $('#rySwiper').mouseleave(function() {
+                mySwiper.startAutoplay();
+            });
+			
+			
+var slideIndex = 1; 
+    showSlides(slideIndex); 
+
+    function plusSlides(n) { 
+    showSlides(slideIndex += n); 
+    } 
+    function currentSlide(n) { 
+    showSlides(slideIndex = n); 
+    } 
+    function showSlides(n) { 
+    var i; 
+    var slides = document.getElementsByClassName("mySlides"); 
+    var dots = document.getElementsByClassName("dot"); 
+    if (n > slides.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = slides.length} 
+    for (i = 0; i < slides.length; i++) { 
+     slides[i].style.display = "none"; 
+    } 
+    for (i = 0; i < dots.length; i++) { 
+     dots[i].className = dots[i].className.replace(" active", ""); 
+    } 
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    dots[slideIndex-1].className += " active"; 
+} 
+setInterval(plusSlides, 3500, 1); // call plusSlider, with 1 as parameter 
+
+
+
+
+  $(function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,//
+	  width:760,
+	  height:705,
+
+	  
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+		<!---特效替換參考網站： https://wizardforcel.gitbooks.io/w3school-jqui/52.html --->
+        duration: 1000
+      }
+    });
+ 
+    $( ".opener" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  });
+  
+  
+		</script>
+	</body>
+	
+	
+</html>
